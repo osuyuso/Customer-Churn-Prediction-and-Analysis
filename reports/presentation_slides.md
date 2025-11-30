@@ -258,10 +258,8 @@ Customer Data → Feature Engineering → Model API → Risk Score → CRM Alert
 
 ## Slide 15: Q&A
 
-### Contact
-**Project Lead:** [Your Name]  
-**Email:** [your.email@company.com]  
-**Repository:** [GitHub/Internal Link]
+### Contact 
+**Repository:** [[GitHub/Internal Link]](https://github.com/osuyuso/Customer-Churn-Prediction-and-Analysis)
 
 ### Supporting Materials
 - 📓 Full technical report: `reports/final_project_report.md`
