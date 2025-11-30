@@ -1,0 +1,59 @@
+{
+  "timestamp": "2025-11-30T01:51:22.744132",
+  "model": "Gradient Boosting",
+  "baseline_f1": 1.0,
+  "drift_detection": {
+    "CustomerID": {
+      "ks_statistic": 0.9844657781091745,
+      "p_value": 0.0,
+      "drift_detected": true
+    },
+    "Age": {
+      "ks_statistic": 0.06629713859632769,
+      "p_value": 0.00033000978007336455,
+      "drift_detected": true
+    },
+    "Tenure": {
+      "ks_statistic": 0.134628483549259,
+      "p_value": 4.95926064702756e-16,
+      "drift_detected": true
+    },
+    "Usage Frequency": {
+      "ks_statistic": 0.08982222636468137,
+      "p_value": 2.298308898377929e-07,
+      "drift_detected": true
+    },
+    "Support Calls": {
+      "ks_statistic": 0.1528156398545997,
+      "p_value": 1.501293330128899e-20,
+      "drift_detected": true
+    },
+    "Payment Delay": {
+      "ks_statistic": 0.30599636499207755,
+      "p_value": 2.309840497033583e-82,
+      "drift_detected": true
+    },
+    "Total Spend": {
+      "ks_statistic": 0.08650908751980607,
+      "p_value": 7.308461755961442e-07,
+      "drift_detected": true
+    },
+    "Last Interaction": {
+      "ks_statistic": 0.03172349085034332,
+      "p_value": 0.26900831089629995,
+      "drift_detected": false
+    }
+  },
+  "performance": {
+    "error": "columns are missing: {'TenureBucket', 'UsagePerTenure', 'HighSupport', 'RecentInteraction', 'SpendPerMonth'}"
+  },
+  "prediction_stats": {
+    "total_predictions": 1000,
+    "churn_rate": 1.0,
+    "churn_count": 1000,
+    "retained_count": 0
+  },
+  "alerts": [
+    "[!] DATA DRIFT DETECTED in 7 feature(s): CustomerID, Age, Tenure, Usage Frequency, Support Calls"
+  ]
+}

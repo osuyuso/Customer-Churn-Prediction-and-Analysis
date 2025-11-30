@@ -1,0 +1,26 @@
+{
+  "tenure_bins": [
+    0,
+    12,
+    24,
+    48,
+    60,
+    100
+  ],
+  "tenure_labels": [
+    "<1y",
+    "1-2y",
+    "2-4y",
+    "4-5y",
+    "5y+"
+  ],
+  "contract_map": {
+    "Monthly": 1,
+    "Quarterly": 3,
+    "Annual": 12
+  },
+  "support_calls_median": 6.0,
+  "last_interaction_median": 15.0,
+  "usage_per_tenure_median": 0.4716981132075472,
+  "spend_per_month_median": 159.0
+}

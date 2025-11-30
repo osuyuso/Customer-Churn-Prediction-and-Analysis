@@ -1,0 +1,4 @@
+model,best_params,precision,recall,f1,roc_auc
+Logistic Regression,"{'clf__C': 0.1, 'clf__penalty': 'l2', 'clf__solver': 'lbfgs'}",0.8024806201550387,0.8486637153631743,0.8249262889473264,0.9126676175260892
+Random Forest,"{'clf__max_depth': 15, 'clf__min_samples_split': 2, 'clf__n_estimators': 600}",0.999344262295082,0.999508116084604,0.9994261824739733,0.9999968785406786
+Gradient Boosting,"{'clf__learning_rate': 0.1, 'clf__max_depth': 3, 'clf__n_estimators': 400}",1.0,1.0,1.0,1.0

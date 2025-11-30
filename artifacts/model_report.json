@@ -1,0 +1,18 @@
+{
+  "best_model": "Gradient Boosting",
+  "metrics": {
+    "model": "Gradient Boosting",
+    "best_params": {
+      "clf__learning_rate": 0.1,
+      "clf__max_depth": 3,
+      "clf__n_estimators": 400
+    },
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "roc_auc": 1.0
+  },
+  "generated_at": "2025-11-29T23:42:48.815928+00:00",
+  "model_path": "E:\\Customer-Churn-Prediction-and-Analysis\\artifacts\\best_model_gradient_boosting.joblib",
+  "feature_config_path": "E:\\Customer-Churn-Prediction-and-Analysis\\artifacts\\feature_config.json"
+}
